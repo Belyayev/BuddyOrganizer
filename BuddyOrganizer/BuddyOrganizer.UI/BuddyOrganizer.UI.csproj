@@ -94,5 +94,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuddyOrganizer.DataAccess\BuddyOrganizer.DataAccess.csproj">
+      <Project>{fc69bda5-fdf7-4a55-bf28-05f3181618f6}</Project>
+      <Name>BuddyOrganizer.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuddyOrganizer.Model\BuddyOrganizer.Model.csproj">
+      <Project>{3419b893-3eef-4aa3-b0f2-31bb7f3096b8}</Project>
+      <Name>BuddyOrganizer.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
