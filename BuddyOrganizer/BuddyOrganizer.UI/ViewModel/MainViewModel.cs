@@ -4,10 +4,11 @@ using System.Collections.ObjectModel;
 
 namespace BuddyOrganizer.UI.ViewModel
 {
-    public class MainViewModel
+    public class MainViewModel : ViewModelBase
     {
         private IBuddyDataService _buddyDataService;
         private Buddy _selectedBuddy;
+
         public MainViewModel(IBuddyDataService buddyDataService)
         {
             Buddies = new ObservableCollection<Buddy>();
@@ -28,7 +29,11 @@ namespace BuddyOrganizer.UI.ViewModel
         public Buddy SelectedBuddy
         {
             get { return _selectedBuddy; }
-            set { _selectedBuddy = value; }
+            set 
+            { 
+                _selectedBuddy = value;
+                OnPropertyChanged();
+            }
         }
 
     }
