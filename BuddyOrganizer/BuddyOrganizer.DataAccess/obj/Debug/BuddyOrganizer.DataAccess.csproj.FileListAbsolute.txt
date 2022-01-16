@@ -1,0 +1,9 @@
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\bin\Debug\BuddyOrganizer.DataAccess.dll
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\bin\Debug\BuddyOrganizer.DataAccess.pdb
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\bin\Debug\BuddyOrganizer.Model.dll
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\bin\Debug\BuddyOrganizer.Model.pdb
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\obj\Debug\BuddyOrganizer.DataAccess.csproj.AssemblyReference.cache
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\obj\Debug\BuddyOrganizer.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\obj\Debug\BuddyOrganizer.DataAccess.csproj.CopyComplete
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\obj\Debug\BuddyOrganizer.DataAccess.dll
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\obj\Debug\BuddyOrganizer.DataAccess.pdb

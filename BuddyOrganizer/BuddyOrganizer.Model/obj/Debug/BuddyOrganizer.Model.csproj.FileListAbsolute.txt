@@ -1,0 +1,6 @@
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.Model\bin\Debug\BuddyOrganizer.Model.dll
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.Model\bin\Debug\BuddyOrganizer.Model.pdb
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.Model\obj\Debug\BuddyOrganizer.Model.csproj.AssemblyReference.cache
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.Model\obj\Debug\BuddyOrganizer.Model.csproj.CoreCompileInputs.cache
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.Model\obj\Debug\BuddyOrganizer.Model.dll
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.Model\obj\Debug\BuddyOrganizer.Model.pdb
