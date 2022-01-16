@@ -12,3 +12,5 @@ C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAcc
 C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\bin\Debug\EntityFramework.xml
 C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\obj\Debug\BuddyOrganizer.DataAccess.Migrations.InitialDatabase.resources
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.DataAccess\obj\Debug\BuddyOrganizer.DataAccess.csproj.GenerateResource.cache
