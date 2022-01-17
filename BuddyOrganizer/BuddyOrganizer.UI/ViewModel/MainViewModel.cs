@@ -1,6 +1,7 @@
 ﻿using BuddyOrganizer.Model;
 using BuddyOrganizer.UI.Data;
 using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 
 namespace BuddyOrganizer.UI.ViewModel
 {
@@ -15,9 +16,9 @@ namespace BuddyOrganizer.UI.ViewModel
             _buddyDataService = buddyDataService;
         }
 
-        public void Load()
+        public async Task LoadAsync()
         {
-            var buddies = _buddyDataService.GetAll();
+            var buddies = await _buddyDataService.GetAllAsync();
             Buddies.Clear();
             foreach (var buddy in buddies)
             {

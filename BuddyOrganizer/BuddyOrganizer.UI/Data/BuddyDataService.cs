@@ -2,7 +2,9 @@
 using BuddyOrganizer.Model;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace BuddyOrganizer.UI.Data
 {
@@ -14,11 +16,11 @@ namespace BuddyOrganizer.UI.Data
         {
             _contextCreator = contextCreator;
         }
-        public IEnumerable<Buddy> GetAll()
+        public async Task<List<Buddy>> GetAllAsync()
         {
             using(var ctx = _contextCreator())
             {
-                return ctx.Buddies.AsNoTracking().ToList();
+                return await ctx.Buddies.AsNoTracking().ToListAsync();
             }
         }
     }
