@@ -1,17 +1,25 @@
-﻿using BuddyOrganizer.Model;
+﻿using BuddyOrganizer.DataAccess;
+using BuddyOrganizer.Model;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BuddyOrganizer.UI.Data
 {
     public class BuddyDataService : IBuddyDataService
     {
+        private Func<BuddyOrganizerDbContext> _contextCreator;
+
+        public BuddyDataService(System.Func<BuddyOrganizerDbContext> contextCreator)
+        {
+            _contextCreator = contextCreator;
+        }
         public IEnumerable<Buddy> GetAll()
         {
-            //TODO: Load data from real database
-            yield return new Buddy { FirstName = "Mike", LastName = "Smith" };
-            yield return new Buddy { FirstName = "Bob", LastName = "Marley" };
-            yield return new Buddy { FirstName = "Tylor", LastName = "Gray" };
-            yield return new Buddy { FirstName = "Kate", LastName = "Smith" };
+            using(var ctx = _contextCreator())
+            {
+                return ctx.Buddies.AsNoTracking().ToList();
+            }
         }
     }
 }

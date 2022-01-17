@@ -35,3 +35,8 @@ C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.UI\bin\
 C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.UI\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.UI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.UI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.UI\bin\Debug\EntityFramework.dll
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.UI\bin\Debug\BuddyOrganizer.DataAccess.dll.config
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.UI\bin\Debug\EntityFramework.xml
+C:\Users\4xgoo\source\repos\BuddyOrganizer\BuddyOrganizer\BuddyOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml
