@@ -14,6 +14,7 @@ namespace BuddyOrganizer.UI.Startup
             builder.RegisterType<BuddyOrganizerDbContext>().AsSelf();
             builder.RegisterType<MainWindow>().AsSelf();
             builder.RegisterType<MainViewModel>().AsSelf();
+            builder.RegisterType<LookupDataService>().AsImplementedInterfaces();
             builder.RegisterType<BuddyDataService>().As<IBuddyDataService>();
 
             return builder.Build();
